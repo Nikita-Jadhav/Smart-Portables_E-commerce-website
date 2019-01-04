@@ -1,0 +1,32 @@
+#graphic-container {
+	position:relative;
+	}
+
+#graphic-container #chart {
+  width:100%;
+}
+
+#graphic-container g {
+	fill:#EEE;
+	stroke:#FFF;
+	stroke-width:1px;
+}
+
+
+#timeline {position:absolute;}
+.hoverbox {position:absolute; padding:0.5em; background:#FFF; box-shadow:1px 1px 8px rgba(0,0,0,.4); z-index:300; font-family:"BentonSans", BentonSans, sans-serif; line-height:1.3em; min-width:100px; max-width:200px;}
+.statename {color: #9B1518;
+font: normal 0.8em/1.3 Helvetica, Arial, sans-serif;
+letter-spacing: 0.01em;
+text-transform: uppercase; clear:both;}
+.statepct {font-weight:bold; clear:both;}
+.statenum {}
+
+.boxkey {width: 1em; height:1em; float:left; margin-right:10px;}
+.gfx-list {width: 45%; margin-right:3%; float:left; margin-bottom:7px;}
+
+#legend {padding-bottom:40px; clear:both; float:left; width:100%;}
+
+@media screen and (min-width: 600px) {
+.gfx-list {width: 17%;}
+}

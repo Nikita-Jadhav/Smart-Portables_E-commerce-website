@@ -1,0 +1,922 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+
+/** global **/
+body {
+	margin:0px auto;
+	padding:0;
+	background: #fff;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-size: 1.2em;
+	color:#666;
+	font-weight: 300;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+
+/** element defaults **/
+table {
+	width:100%;
+	text-align:left;
+}
+th, td {
+	padding:10px;
+}
+th {
+	color:#fff;
+	font-weight: bold;
+	border-top:1px solid #222;
+	background-color:#2F2F2F;
+}
+td {
+	border-bottom:1px solid #f4f4f4;
+}
+code, blockquote {
+	display:block;
+	font-family: "Courier New", Courier, monospace;
+	border-left:5px solid #ddd;
+	padding:10px;
+	margin-bottom:20px;
+}
+blockquote p {
+	font-style:italic;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin:0;
+	height: 1%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	line-height:2.0em;
+	margin-bottom:20px;
+}
+a {
+	color:#D6593D;
+}
+a:hover {
+	color:#4E7BDC;
+}
+a:focus {
+	outline:none;
+}
+a.button { 
+    background-color: #DC6A50;
+    background-image:linear-gradient(#DC6A50, #D14829);
+    border-top: 1px solid #E17C66;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    padding: 13px 22px;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.button:hover {
+	background: #D14829;
+}
+
+a.button-reversed {
+    background-color: #507DDC;
+	background-image:linear-gradient(#668DE1, #3B6DD8);
+	border-top: 1px solid #7B9DE5;
+}
+a.button-reversed:hover {
+	background: #3B6DD8;
+}
+
+
+a.button-slider {
+	font-size: 1.3em;
+	margin: 5px 0;
+	padding: 13px 22px;
+}
+
+fieldset {
+	display:block;
+	border:none;
+	border-top:1px solid #e0e0e0;
+}
+fieldset legend {
+	font-weight:bold;
+	font-size:13px;
+	padding-right:10px;
+	color:#222;
+}
+fieldset form {
+	padding-top:15px;
+}
+fieldset p label {
+	float:left;
+	width:150px;
+	font-family: 'Source Sans Pro', 'sans-serif';
+}
+fieldset form input, fieldset form select, fieldset form textarea {
+	padding:5px;
+	color:#333333;
+	font-size:13px;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	border:1px solid #ddd;
+}
+fieldset form input.formbutton {
+border:none;
+    background-color: #D7593C;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 22px;
+    margin-left: 150px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+form.searchform input {
+  	font-size: 1.1em;
+    	padding: 10px 2%;
+	width: 96%;
+	background-color: #fff;
+	display: block;
+	color: #999;
+	border: 1px solid #ccc;
+	font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+form.searchform p {
+	margin: 5px 0 0;
+}
+
+h1 {
+	font-size:3em;
+	padding-bottom: 10px;
+}
+h2 {
+	color:#444;
+	font-size:1.8em;
+	text-transform: uppercase;
+	font-weight:bold;
+	padding:0 0 10px;
+	margin:0;
+	letter-spacing: -1px;
+}
+h3 {
+	/*color:#D85E43;
+	font-weight: bold;
+	font-size:1.6em;
+	padding-bottom:10px;
+	text-transform: uppercase;*/
+	color: #7543d8;
+	font-weight: bold;
+	font-size:1.6em;
+	padding-bottom:10px;
+	text-transform: capitalize;
+}
+h4 {
+	padding-bottom:10px;
+	font-size:1.4em;
+	font-weight: bold;
+	color:#527EDC;
+}
+h5 {
+	padding-bottom:20px;
+	font-size:1.2em;
+	color:#666666;
+}
+ul, ol {
+	padding: 0;
+	margin:0 0 35px 35px;
+	list-style: disc;
+}
+li {
+	padding:5px 0;
+}
+
+
+/** wrapper **/
+div#wrapper {
+	margin:0px auto;
+	padding:0;
+}
+
+.width {
+	width: 79.75%;
+	margin: 0 auto;
+}
+
+
+
+
+/** header **/
+header {
+	padding:30px 0 30px;
+	margin:0 auto;
+	background-color: #DC6A50;
+}
+header h1 { 
+	padding-bottom: 0;
+	text-align: left;
+}
+
+header h1 a,
+header h1 a:hover,
+header h1 a:visited {
+	color: #fff !important;
+	font-weight: 300;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #BB4125;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+}
+
+header h1 a strong { font-weight: bold; }
+
+header h2 {
+	color:#E9A190;
+	text-align: left;
+	font-size: 0.8em;
+	font-weight: normal;
+	padding-bottom:0;
+	letter-spacing:0;
+	text-transform: uppercase;
+}
+
+nav#mainnav {
+	background-color: #222;
+	background-image:linear-gradient(#222, #111);
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #000;
+}
+
+nav#mainnav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+nav#mainnav ul li {
+	border-bottom:none;
+	padding: 10px 0;
+	display: block;
+	float: left;
+}
+nav#mainnav li.selected-item a,
+nav#mainnav li.selected-item a:hover {
+	color:#fff;
+	font-weight:bold;
+	background-color: #DC6A50;
+	background-image:linear-gradient(#DC6A50, #D14829);
+	border-top: 1px solid #E17C66;
+}
+nav#mainnav li a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+nav#mainnav li a {
+	color: #ccc;
+	float: left;
+	display: block;
+	padding: 15px 20px;
+	border-top: 1px solid transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-decoration: none;
+	
+}
+
+
+/** intro **/
+.intro {
+	background-image: url('../img.jpg');
+	background-position: bottom;
+	padding: 100px 0;
+}
+
+.intro .width {
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.intro h2 {
+	color: #fff;
+}
+
+
+/** body **/
+section#body {
+	padding: 0;
+	background: #ddd;
+}
+
+
+/** content+sidebar styles **/
+section#content {
+	width: 70%;
+	padding: 5px 10% 5px 1%;
+	background-color: #DC6A50;
+}
+.column-left {
+	float:left;
+}
+.column-right {
+	float:right;
+}
+aside#sidebar {
+//	width:22.75%;
+//	padding:5px 0.25% 5px 10%;
+	font-size: 0.8em;
+	
+}
+
+
+aside#sidebar .block {
+	padding: 25px 0px;
+}
+
+aside#sidebar p.text-block {
+	border-radius: 10px;	
+	margin-bottom: 0;
+	padding: 10px;
+	line-height: 1.7em;
+	border: 1px solid #777;
+	background-color: #999;
+	color: #555;
+}
+
+aside#sidebar p.text-block a {
+	color: #555;
+}
+
+aside#sidebar p.text-block a.readmore {
+	font-weight: bold;
+}
+
+aside#sidebar p.coloured-text-block {
+	background-color: #DC6A50;
+	border-color: #D8583B;
+	color: #DC6A50;
+}
+
+aside#sidebar p.coloured-text-block a {
+	color: #fff;
+}
+
+aside#sidebar h4 { 
+	color:#999;
+	text-shadow: 1px 1px 0 #eee;
+	font-size: 1.6em;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0;
+}
+aside#sidebar a {
+	color: #555;
+}
+aside#sidebar a:hover {
+	color: #111;
+}
+aside#sidebar ul {
+	list-style: none;
+	margin: 0;
+}
+aside#sidebar ul li {
+	padding: 7px 0px;
+}
+
+.responsive-buttons { display: none; }
+
+article {
+    padding: 0px 100px;
+	font-size: 0.95em;
+border-bottom: 1px solid #eee;
+ }
+
+article h2 {
+    padding-bottom: 0;
+   font-size: 2.0em;
+}
+
+article .article-info {
+  color: #CCC;
+font-size: 0.8em;
+padding: 0px 0px 10px;
+}
+
+article .article-info a { 
+	color: #ccc;
+}
+
+
+
+/** footer **/
+footer {
+	margin:0px auto;
+	background: #222;
+	font-size: 0.85em;
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	color: #ccc;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+	
+}
+
+footer p a {
+	color: #ccc;
+	font-weight: bold;
+}
+
+.footer-content {
+	padding: 20px 25px 30px;
+	text-align: center;
+}
+
+footer .footer-content ul {
+	width: 25%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: center;
+}
+
+footer .footer-content li {
+	padding: 5px 5px;
+}
+
+footer .footer-content li a, footer .footer-content h4 {
+}
+
+footer .footer-content li a {
+ color: #505050;
+	border-bottom-color:#505050;
+    text-align: center;
+}
+
+footer .footer-content li {
+ color: #505050;
+	line-height: 1.5em;
+font-size: 0.95em;
+text-align: center;
+}
+
+footer .footer-content li a:hover { 
+	color: #909090;
+	text-align: center;
+	border-bottom-color:#909090;
+}
+
+footer .footer-content h4 {
+   color: #ddd;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-bottom: 10px;
+	text-align: center;
+}
+
+footer .footer-bottom {
+	padding: 10px;
+	text-align: center;
+	background-color: #000;
+}
+
+footer .footer-bottom p {
+	text-align: center;
+}
+
+footer .footer-bottom p, footer .footer-bottom p a {
+	color: #666;
+	border-bottom-color: #666;
+}
+
+
+
+
+/** clear fix **/
+.clear:after {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clear {
+	clear: both;
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.align-center {
+	text-align: center;
+}
+
+.responsive-buttons a, 
+.responsive-buttons a:hover {
+	color: #ccc;
+	display: block;
+	padding: 15px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8em;	
+	background-color: #ccc; 
+	border: 1px solid #c0c0c0;
+	text-decoration: none;
+	
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	body { font-size: 0.9em; }	
+
+
+	.width { width:auto; padding-left: 10px; padding-right: 10px; }
+
+	.column-left, .column-right { margin:0 5px; }
+	
+	section#content, aside#sidebar { position: relative; float: none; width: auto; padding: 2%;  }
+	
+	.responsive-sidebar-hide { display: none; }
+
+	.responsive-buttons { display: block; }
+
+	div.intro { padding: 10px 0; }
+	
+	.intro p { margin-left: 0; }
+
+	footer .footer-content ul { margin-bottom: 15px; }
+
+	footer .footer-content ul.endfooter { margin-bottom: 0px; }
+
+
+	footer .footer-content ul { width: auto; float: none; }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+	body { font-size: 0.8em; }
+
+
+	header, header h1 a, header h1 a:hover { text-align: center; padding: 10px 0; font-size: 1.1em; }
+	
+	header h1 { text-align: center; }
+
+	header h2 { display: none; }
+
+	nav#mainnav ul li a   { display: block; margin-top: 0; padding: 8px 1em; }
+
+	aside#sidebar nav#mainnav ul li { padding: 2px 0; }
+}
+/* Products Display on the Main Content Screen */
+.post {
+	width: 1025px;
+	margin-bottom: 20px;
+	padding: 20px 0px;
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+
+/* Decoration for Title of Products in the Main Content Screen */
+
+.post .title {
+	height: 44px;
+	padding: 0px 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Decoration for Product Title Links in the Main Content Screen */
+
+.post .title a {
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-size: 30px;
+	color: #238EC6;
+}
+
+/* Decoration for Products Display in the Main Content Screen */
+
+.post .meta {
+	height: 32px;
+	margin-top: -10px;
+	margin-left: 2px;
+	padding: 4px 30px 6px 20px;
+	background: url(images/site/1.png) repeat-x left bottom;
+	background-size: fill;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #66665E;
+}
+
+/* Decoration for Products Display with span Tags*/
+
+.post .meta span {
+	display: block;
+	margin-top: -10px;
+}
+
+.post .entry {
+	padding: 10px 20px;
+	overflow-x: auto;
+	
+}
+
+.post .links {
+	background: #90BF35;
+	border: 1px solid #5F817E;
+}
+
+/* Decoration for Different Products in Game Speed Store. */
+
+.post .links {
+	display: block;
+	width: 120px;
+	height: 18px;
+	margin: 0px 0px 4px 0px;
+	padding: 3px 0px 0px 40px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Decoration for Products Reviews in the Main Content Screen */
+.post .comments {
+	display: block;
+	width: 120px;
+	height: 18px;
+	margin: 0px;
+	padding: 3px 0px 0px 40px;
+	background: #90BF35;
+	border: 1px solid #5F817E;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/*  Items in the Store Display */
+
+#shop_item {
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding: 4px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+/*  Unordered List of Items in the Store Display */
+
+#shop_item ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	
+}
+
+/*  Unordered List of Items and List Tags in the Store Display */
+
+#shop_item ul li {
+	margin-bottom: 5px;
+	margin-top: 6px;
+}
+
+/*  Image Display of Products in the Store  */
+
+#shop_item #item img {
+	display: block;
+	width: 180px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+/* Decoration for Display of Products in the Store  */
+
+#shop_item strong {
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+	
+}
+
+/* Border Decoration for Display of Products in the Store  */
+
+#shop_item #item {
+	border: 1px solid #000;
+	
+}
+
+/* Heading Tag for Display of Products in the Store  */
+
+#shop_item h3 {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 0;
+	
+}
+
+/* Button Decoration for Display of Products in the Store  */
+
+#shop_item button {
+	width: 100%;
+	margin-bottom: 6px;
+	overflow-x: scroll;
+	
+}
+
+/* Best Seller Products display on Home Screen*/
+
+#bestseller {
+	width: 100%
+}
+
+/* Best Seller Products display Table Data Decoration*/
+
+#bestseller td {
+	padding-bottom: 20px;
+}
+
+/* Buy Now buttons  Decoration for Products in Game Speed*/
+
+.btnbuy {
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3498db;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Review Buttons Decoration for Products in Game Speed*/
+
+.btnreview {
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3498db;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Buy and Review Buttons Decoration for Products with :hover tags*/
+
+.btnbuy:hover,.btnreview:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+/* Product Search Box Decoration ( Upper Right Corner)  */
+
+.input {
+	width: 100%;
+	height: 50px;
+	margin: 5px;
+	margin-left: 0px;
+}
+
+/* Cart Details Table ( Table Displayed During Check Out)  */
+
+table.gridtable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin-bottom:50px;
+}
+
+/* Decoration for Cart Details with Table Head Tags */
+
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+
+/* Decoration for Cart Details with Table Data Tags */
+
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+/* style for prev annd next button of carousel */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+
+.container {
+  width:auto !important;
+	height:auto !important;
+	position:relative;
+	overflow:hidden;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

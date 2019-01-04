@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+<WearableTechnologyCatalog>
+    <wearabletechnology id="FitBit2 HeartRate">
+        <name>FitBit2 HeartRate</name>
+        <price>129</price>
+        <image>FitnessWatch1.png</image>
+        <manufacturer>FitnessWatches</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+		<warranty>5</warranty>
+        <quantity>100</quantity><rebate>5</rebate>
+		<accessories>
+            <accessory>fw1</accessory>		
+        </accessories>
+    </wearabletechnology>
+    <wearabletechnology id="FitnessWatch2">
+        <name>Garmin Forerunner 35</name>
+        <price>30</price>
+        <image>FitnessWatch2.png</image>
+        <manufacturer>FitnessWatches</manufacturer>
+        <condition>New</condition>
+        <discount>3.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>fw1</accessory>			
+        </accessories>
+    </wearabletechnology>
+
+    <wearabletechnology id="SmartWatch1">
+        <name>Samsung Gear S3 Frontier</name>
+        <price>264</price>
+        <image>SmartWatch1.png</image>
+        <manufacturer>SmartWatches</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>sw1</accessory>			
+        </accessories>
+    </wearabletechnology>
+    <wearabletechnology id="SmartWatch2">
+        <name>Samsung Gear S2</name>
+        <price>142</price>
+        <image>SmartWatch2.png</image>
+        <manufacturer>SmartWatches</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+        <warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>sw1</accessory>
+         			
+        </accessories>
+    </wearabletechnology>
+    <wearabletechnology id="Headphones1">
+        <name>Apple Ear Pods with Lightning connector</name>
+        <price>27.88</price>
+        <image>Headphones1.png</image>
+        <manufacturer>Headphones</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>hph1</accessory>
+        		
+        </accessories>
+    </wearabletechnology>
+	<wearabletechnology id="Headphones2">
+        <name>Boss Quiet Comfort 35 Wireless</name>
+        <price>349</price>
+        <image>Headphones2.png</image>
+        <manufacturer>Headphones</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>hph1</accessory>
+       		
+        </accessories>
+    </wearabletechnology>
+	<wearabletechnology id="GT1">
+        <name>Whistle 3 GPS</name>
+        <price>79.94</price>
+        <image>PT1.png</image>
+        <manufacturer>PetTracker</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <warranty>0</warranty>
+		<quantity>100</quantity><rebate>8</rebate><accessories>
+            <accessory>pt1</accessory>
+       		
+        </accessories>
+    </wearabletechnology>
+	<wearabletechnology id="GT2">
+        <name>Findster Duo and Pettracker</name>
+        <price>149.99</price>
+        <image>PT2.png</image>
+        <manufacturer>PetTracker</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate><accessories>
+            <accessory>pt1</accessory>
+         		
+        </accessories>
+    </wearabletechnology>
+	<wearabletechnology id="VR1">
+        <name>Oculus Go Standalone VR Headset</name>
+        <price>199</price>
+        <image>VR1.png</image>
+        <manufacturer>VirtualReality</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <warranty>3</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>vir1</accessory>
+           		
+        </accessories>
+    </wearabletechnology>
+	<wearabletechnology id="VR2">
+        <name>HTC VIVE VR System</name>
+        <price>149.99</price>
+        <image>VR2.png</image>
+        <manufacturer>VirtualReality</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <warranty>5</warranty>
+		<quantity>100</quantity><rebate>11</rebate><accessories>
+            <accessory>vir1</accessory>
+          		
+        </accessories>
+    </wearabletechnology>
+</WearableTechnologyCatalog>
+
+<LaptopCatalog>
+    <laptop id="lap1">
+        <name>DELL 5000</name>
+        <price>629.99</price>
+        <image>LAP1.png</image>
+        <manufacturer>DELL</manufacturer>
+        <condition>New</condition>
+        <discount>35.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l2</accessory>
+            <accessory>l3</accessory>
+            <accessory>l1</accessory>
+			
+        </accessories>
+    </laptop>
+    <laptop id="lap2">
+        <name>DELL Newest 7000 Series Premium Inspiron</name>
+        <price>698.99</price>
+        <image>LAP2.png</image>
+        <manufacturer>DELL</manufacturer>
+        <condition>Used</condition>
+        <discount>20.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l3</accessory>
+			
+        </accessories>
+    </laptop>
+    <laptop id="lap3">
+        <name>DELL Inspiron 5000</name>
+        <price>649.99</price>
+        <image>LAP3.png</image>
+        <manufacturer>DELL</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l3</accessory>
+<accessory>l1</accessory>			
+        </accessories>
+    </laptop>
+    <laptop id="hplap1">
+        <name>HP Silver Iridium Ci5</name>
+        <price>492</price>
+        <image>HPLAP1.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l1</accessory>			
+        </accessories>
+    </laptop>
+    <laptop id="hplap2">
+        <name>HP ENVY x2 12" Detachable</name>
+        <price>702.26</price>
+        <image>HPLAP2.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l4</accessory>			
+        </accessories>
+    </laptop>
+	<laptop id="hplap3">
+        <name> HP Slim Desktop Intel Core i7</name>
+        <price>798.6</price>
+        <image>HPLAP3.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l4</accessory>			
+        </accessories>
+    </laptop>
+	<laptop id="appp1">
+        <name>Apple 13.3" MacBook Air</name>
+        <price>838.95</price>
+        <image>APPP1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>15</rebate><accessories>
+            <accessory>l6</accessory>			
+        </accessories>
+    </laptop>
+	<laptop id="appp2">
+        <name>Apple MacBook Air Intel i5</name>
+        <price>499</price>
+        <image>APPP2.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate><accessories>
+            <accessory>l2</accessory>			
+        </accessories>
+    </laptop>
+	<laptop id="appp3">
+        <name>Apple MacBook Pro</name>
+        <price>486</price>
+        <image>APPP3.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l6</accessory>			
+        </accessories>
+    </laptop>
+	<laptop id="appp4">
+        <name>Apple MacBook with Retina Display</name>
+        <price>1499</price>
+        <image>APPP4.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>l6</accessory>			
+        </accessories>
+    </laptop>
+</LaptopCatalog>
+<PhoneCatalog>
+<phone id="app1">
+        <name>Apple iPhoneX</name>
+        <price>1176</price>
+        <image>APP1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>p1</accessory>			
+        </accessories>
+</phone>
+<phone id="app2">
+        <name>Apple iPhone 7</name>
+        <price>359.99</price>
+        <image>APP2.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>a2</accessory>			
+        </accessories>
+</phone>
+<phone id="app3">
+        <name>Apple iPhone8</name>
+        <price>642</price>
+        <image>APP3.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>3</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>a2</accessory>			
+        </accessories>
+		<warranty>5</warranty>
+</phone>
+<phone id="app4">
+        <name>Apple iPhone 7Plus</name>
+        <price>519.98</price>
+        <image>APP4.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>a2</accessory>			
+        </accessories>
+</phone>
+<phone id="htc1">
+        <name>HTC U11</name>
+        <price>292</price>
+        <image>HTC1.png</image>
+        <manufacturer>HTC</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>l5</accessory>			
+        </accessories>
+</phone>
+<phone id="htc2">
+        <name>HTC Desire 10Pro</name>
+        <price>176.28</price>
+        <image>HTC2.png</image>
+        <manufacturer>HTC</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>l5</accessory>			
+        </accessories>
+</phone>
+<phone id="htc3">
+        <name>HTC U12</name>
+        <price>799.99</price>
+        <image>HTC3.png</image>
+        <manufacturer>HTC</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>0</rebate>
+		<accessories>
+            <accessory>l5</accessory>			
+        </accessories>
+</phone>
+<phone id="sam1">
+        <name>Samsung Galaxy S9</name>
+        <price>619</price>
+        <image>SAM1.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>a1</accessory>			
+        </accessories>
+</phone>
+<phone id="sam2">
+        <name>Samsung Note8</name>
+        <price>604.9</price>
+        <image>SAM2.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>8</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+		<accessories>
+            <accessory>a1</accessory>			
+        </accessories>
+</phone>
+<phone id="sam3">
+        <name>Sansung Galaxy S8</name>
+        <price>549.88</price>
+        <image>SAM3.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>8</rebate>
+		<accessories>
+            <accessory>a1</accessory>			
+        </accessories>
+</phone>
+</PhoneCatalog>
+
+<VoiceAssistantCatalog>
+<!--<voiceassistant id="app1">
+        <name>Apple iPhoneX</name>
+        <price>1176</price>
+        <image>APP1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+</voiceassistant>-->
+<voiceassistant id="ga1">
+        <name>Handsfree Car Kit with Siri</name>
+        <price>14.99</price>
+        <image>GA1.png</image>
+        <manufacturer>Siri</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>si1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="ga2">
+        <name>Rechargable Bluetooth Speaker</name>
+        <price>29.99</price>
+        <image>GA2.png</image>
+        <manufacturer>Siri</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>si1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="gh1">
+        <name>Wifi Smart Plug</name>
+        <price>12.85</price>
+        <image>GH1.png</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>go1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="s1">
+        <name>Bluetooth in Car speakerphone</name>
+        <price>54.29</price>
+        <image>S1.png</image>
+        <manufacturer>Siri</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>si1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="vo1">
+        <name>All-new Echo Show (2nd Gen)</name>
+        <price>229.99</price>
+        <image>AL1.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>al1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="vo2">
+        <name>Echo Dot (2nd Gen)</name>
+        <price>39.99</price>
+        <image>AL2.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>5</rebate><accessories>
+            <accessory>al1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="vo3">
+        <name>LED Smart Light Table Lamp</name>
+        <price>79.99</price>
+        <image>AL3.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>al1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="vo4">
+        <name>Echo Charcoal Fabric</name>
+        <price>99.99</price>
+        <image>AL4.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>al1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="vo5">
+        <name>Echo Spot</name>
+        <price>129.99</price>
+        <image>AL5.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>al1</accessory>			
+        </accessories>
+</voiceassistant>
+<voiceassistant id="vo6">
+        <name>Ring WiFi Enabled Video Doorbell</name>
+        <price>99.99</price>
+        <image>AL6.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate><accessories>
+            <accessory>al1</accessory>			
+        </accessories>
+</voiceassistant>
+
+</VoiceAssistantCatalog>
+
+<AccessoryCatalog>
+
+    <accessory id="a1">
+        <name>Universal Magnetic Car Mount</name>
+        <price>15</price>
+        <image>A1.png</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+
+    <accessory id="a2">
+        <name>Shield for iPhone</name>
+        <price>6</price>
+        <image>A2.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+	 <accessory id="l1">
+        <name>LapGear Home Office Laptop Desk</name>
+        <price>39.99</price>
+        <image>L1.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>6</rebate>
+     </accessory>
+
+    <accessory id="l2">
+        <name>Portable Laptop Stand</name>
+        <price>89</price>
+        <image>L2.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+	 <accessory id="l3">
+        <name>Port Plugs/Dust Plugs</name>
+        <price>6.32</price>
+        <image>L3.png</image>
+        <manufacturer>DELL</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>5</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+
+    <accessory id="l4">
+        <name>TeckNet Laptop Cooling Pad</name>
+        <price>20.99</price>
+        <image>L4.png</image>
+        <manufacturer>HP</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+	<accessory id="l5">
+        <name>12 Port extension</name>
+        <price>20.99</price>
+        <image>L5.png</image>
+        <manufacturer>HTC</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+    <accessory id="l6">
+        <name>SEMZUXCharger for MacBook Pro</name>
+        <price>25.88</price>
+        <image>L6.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+
+    <accessory id="p1">
+        <name>Portable Power Bank</name>
+        <price>299</price>
+        <image>P1.png</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate>
+     </accessory>
+	 
+	<accessory id="al1">
+        <name>Light Switch Toggle</name>
+        <price>35</price>
+        <image>AL1.png</image>
+        <manufacturer>Alexa</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory> 
+	 
+	 <accessory id="si1">
+        <name>tvTray</name>
+        <price>30</price>
+        <image>SI1.png</image>
+        <manufacturer>Siri</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+	 <accessory id="go1">
+        <name>Google Home Mini</name>
+        <price>30</price>
+        <image>GO1.png</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate>
+     </accessory>
+	 
+	 <accessory id="vir1">
+        <name>Vive Pro Kit</name>
+        <price>40</price>
+        <image>VIR1.png</image>
+        <manufacturer>VirtualReality</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+	 <accessory id="pt1">
+        <name>Tile Mate</name>
+        <price>40</price>
+        <image>PT1.png</image>
+        <manufacturer>PetTracker</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>10</rebate>
+     </accessory>
+	 
+	 <accessory id="hph1">
+        <name>Plantronics ear cushion</name>
+        <price>40</price>
+        <image>HPH1.png</image>
+        <manufacturer>Headphones</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate>
+     </accessory>
+	 
+	 <accessory id="sw1">
+        <name>Aconic Protective Cases</name>
+        <price>40</price>
+        <image>SW1.png</image>
+        <manufacturer>SmartWatches</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate>
+     </accessory>
+	 
+	 <accessory id="fw1">
+        <name>Plantronics ear cushion</name>
+        <price>40</price>
+        <image>FW1.png</image>
+        <manufacturer>FitnessWatches</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+		<warranty>0</warranty>
+		<quantity>100</quantity><rebate>0</rebate>
+     </accessory>
+	 
+</AccessoryCatalog>
+
+
+
+</ProductCatalog>

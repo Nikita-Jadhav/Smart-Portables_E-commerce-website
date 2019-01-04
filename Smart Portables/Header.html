@@ -1,0 +1,119 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Smart Tech</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="hearts.css" media="screen">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--<script type="text/javascript" src="js/sticky.min.js"></script>-->
+<script type="text/javascript" src="js/custom.js"></script>
+<!--<script src="script.js"></script>-->
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<script>
+<!-- jqurey script -->
+$(document).ready(function(){
+
+	$('#myCarousel').carousel({
+  interval: 3000
+})
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+});
+});
+</script>
+<script type="text/javascript" src="javascript.js"></script>
+<style>
+* {
+		box-sizing : unset;
+	}
+	
+.col-md-6{
+		width : 45% ! important;
+	}
+</style>	
+</head>
+
+<body onload="init()">
+
+<header >
+	<div class="width">
+		<h1><a href="#"><strong>Smart</strong> Tech</a></h1>
+
+		<h2>Welcome to my website!</h2>
+		<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Date and Time.</button>
+
+			<div style="float: right;width: 35%;margin-top: -70px;border: 4px solid #522b2b;padding: 20px;padding-right: 30px;">
+			<em style="color: #1d0000;">SEARCH PRODUCT:</em>
+			<div name="autofillform">
+				<input type="text" name="searchId" value="" class="input" id="searchId" onkeyup="doCompletion()" placeholder="Laptops,Phones,VoiceAssistant...." style="padding: 5px; font-size: 16px;">
+				<div id="auto-row">
+					<table id="complete-table" class="gridtable" style="position: absolute; width: 315px;"></table>
+				</div>
+			</div>
+		</div>
+			
+
+<p id="demo"></p>
+
+	</div>
+	
+</header>
+		
+<div id="header">
+	<div id="menu">
+		<nav id="mainnav">
+			<div class="width">
+				<div class="container">
+					<ul>
+										
+						<li class="selected-item"><a href="Home" class="first"><span class="glyphicon glyphicon-home">Home</span></a></li>
+						<li><a href="WearableTechnologyList">Wearable Technology</a></li>
+						<li><a href="PhonesList">Phones</a></li>
+						<li><a href="LaptopList">Laptops</a></li>
+						<li><a href="VoiceAssistantList">Voice Assistant</a></li>
+						<li><a href="Trending">Trending</a></li>
+						
+					</ul>
+					<!--
+					<div style='float: right;'>
+					<ul>
+						<li><a href='ViewOrder'><span class='glyphicon'>ViewOrder</span></a></li>
+						<li><a href='Signup'><span class='glyphicon'>SignUp</span></a></li>
+						<li><a href='Login'><span class='glyphicon'>Login</span></a></li>
+						<li><a href='ViewCart'><span class="glyphicon glyphicon-shopping-cart">Cart(0)</span></a></li>
+					</ul>
+					</div>-->
+			<!--	</ul>
+			</div>
+			
+			</div>
+		</nav>
+</div>-->
+
+  <!-- end #menu -->
+ <!-- <div id='page'>
+				<img src="img12.jpg" alt="Placeholder image" />
+				<div class="clear"></div>
+			</div>
+  -->

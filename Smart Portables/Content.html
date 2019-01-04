@@ -1,0 +1,84 @@
+<!--<div id="content">-->
+	 <!--<section id="content">-->
+<script>
+<!-- jqurey script -->
+$(document).ready(function(){
+
+	$('#myCarousel').carousel({
+  interval: 3000
+})
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+});
+});
+</script>
+	
+	<div class="col-md-9">
+	    <article>
+				<div>
+	    <h2 style="color:blue;">Welcome to Smart Tech, Price Match Guaranteed !</h2>
+
+            <p>Smart Tech brings to you the best products from the best retailers in America. We provide our customers excellent customer service. Lowest price guaranteed across all the major retailers in America.</p>	
+            
+            <p>We specialize in providing high quality products to our customers. Making our customers happy is our prime goal.</p>
+			
+			<p>Currently we sell the following products online as well as in store.</p>
+
+            <ul class="styledlist">
+                <li>Fitness Watches
+				 <li>Smart Watches
+				 <li>Headphones
+				 <li>Virtual Reality
+				 <li>Pet Tracker
+				 <li>Phones
+				 <li>Laptops
+				 <li>Voice Assistant/Smart Speaker
+		
+            </ul>
+
+	    </article>
+
+		<article>
+		<h3><p style="color:blue;" align="center">Best Sellers</h3>
+		</article>
+		
+		
+	    <article>
+		
+		<table style="width:100%" style="height:100%" border="1" bordercolor="#aaa" cellspacing="0" cellpadding="0">
+			
+			<tr>
+			<td width="30%">
+				<a href="#"><img src="images/Phones/SAM1.png" alt="Trulli" width="200" height="600">
+				<!--<img style="width:500px;height:500px;" style="display:block;"  src="images/SAM1.png" /></a>-->
+			</td>
+			
+			<td width="40%">
+				<table>
+					<tr><td width="40"><b>Samsung Galaxy S9</b></td></tr>
+					
+					<tr><td><b>Condition:</b> New</td></tr>
+				</table>
+			</td>
+			
+			<td width="30%">
+				<table>
+					<tr><td><b>Price: $619.00</b></td></tr>
+					
+					<tr><td><a href="#" class="button">Buy Now</a></td></tr>
+					
+				</table>
+			</td>
+			</tr>
+			
+		</table>
+		
+		
+	    </article>
+        </section>
+     </div>

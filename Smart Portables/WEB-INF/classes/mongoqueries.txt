@@ -1,0 +1,81 @@
+db.myReviews.aggregate([
+  {
+    $group: {
+      _id: "$state",
+	  sum_rating: {
+        $sum: "$reviewrating"
+      },
+      average_rating: {
+        $avg: "$reviewrating"
+      },
+      min_rating: {
+        $min: "$reviewrating"
+      },
+      max_rating: {
+        $max: "$reviewrating"
+      }
+    }
+  }
+]);
+
+
+db.myReviews.aggregate(
+   [
+     {
+       $group:
+         {
+           _id: "$gender",
+           avgQuantity: { $avg: "$reviewrating" }
+         }
+     }
+   ]
+)
+
+// products with min,max,avg ratings
+db.myReviews.aggregate(
+    {
+    $group: {
+      _id: "$state",
+	  sum_rating: {
+        $sum: "$reviewrating"
+      },
+      average_rating: {
+        $avg: "$reviewrating"
+      },
+      min_rating: {
+        $min: "$reviewrating"
+      },
+      max_rating: {
+        $max: "$reviewrating"
+      }
+    }
+  }
+);
+// products reviewed with rr=5
+db.myReviews.aggregate(
+    { $match : { reviewrating : "5" } },{
+    $group: {
+      _id: "$state",
+	  count:{$sum:1}
+    }
+  }
+);
+// products reviewed by state
+db.myReviews.aggregate([
+	{"$group":
+	{
+	_id:"$state",count:{$sum:1}
+	}
+	}
+]);
+
+–eval "printjson(db.myReviews.aggregate([{"$group":{_id:"$state",count:{$sum:1}}}]))" >> m.csv
+
+db.products.remove( { qty: { $state: null } } )
+
+print("state,id");
+db.myReviews.find().forEach(function(myReviews){print(myReviews.state+","+myReviews._id.valueOf());});
+
+mongoexport --db CustomerReviews --collection myReviews --type=csv --fields count:{$sum:1},state --out "C:\Users\Shri Ram\Desktop\ar66.csv"
+
+mongoexport --db CustomerReviews --collection myReviews --query 'db.myReviews.aggregate([{"$group":{_id:"$state",count:{$sum:1}}}])' --out "C:\Users\Shri Ram\Desktop\ar5.csv"

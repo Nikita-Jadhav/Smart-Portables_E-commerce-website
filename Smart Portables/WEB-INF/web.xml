@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+  <display-name>Smart Tech</display-name>
+  
+  <!-- See the welcome-file Reference Material here: http://www.javatpoint.com/welcome-file-list -->
+  <welcome-file-list>
+    <welcome-file>Home</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Startup</servlet-name>
+    <servlet-class>Startup</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>Home</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>Accessory</servlet-name>
+    <servlet-class>Accessory</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Accessory</servlet-name>
+    <url-pattern>/Accessory</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>AccessoryList</servlet-name>
+    <servlet-class>AccessoryList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AccessoryList</servlet-name>
+    <url-pattern>/AccessoryList</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Account</servlet-name>
+    <servlet-class>Account</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Account</servlet-name>
+    <url-pattern>/Account</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewCart</servlet-name>
+    <servlet-class>ViewCart</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewCart</servlet-name>
+    <url-pattern>/ViewCart</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CheckOut</servlet-name>
+    <servlet-class>CheckOut</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CheckOut</servlet-name>
+    <url-pattern>/CheckOut</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>WearableTechnology</servlet-name>
+    <servlet-class>WearableTechnology</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>WearableTechnology</servlet-name>
+    <url-pattern>/WearableTechnology</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>WearableTechnologyList</servlet-name>
+    <servlet-class>WearableTechnologyList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>WearableTechnologyList</servlet-name>
+    <url-pattern>/WearableTechnologyList</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Phone</servlet-name>
+    <servlet-class>Phone</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Phone</servlet-name>
+    <url-pattern>/Phone</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PhonesList</servlet-name>
+    <servlet-class>PhonesList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>PhonesList</servlet-name>
+    <url-pattern>/PhonesList</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Laptop</servlet-name>
+    <servlet-class>Laptop</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Laptop</servlet-name>
+    <url-pattern>/Laptop</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LaptopList</servlet-name>
+    <servlet-class>LaptopList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LaptopList</servlet-name>
+    <url-pattern>/LaptopList</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>VoiceAssistant</servlet-name>
+    <servlet-class>VoiceAssistant</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>VoiceAssistant</servlet-name>
+    <url-pattern>/VoiceAssistant</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>VoiceAssistantList</servlet-name>
+    <servlet-class>VoiceAssistantList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>VoiceAssistantList</servlet-name>
+    <url-pattern>/VoiceAssistantList</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>NextAccessory</servlet-name>
+    <servlet-class>NextAccessory</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>NextAccessory</servlet-name>
+    <url-pattern>/NextAccessory</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderItem</servlet-name>
+    <servlet-class>OrderItem</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OrderItem</servlet-name>
+    <url-pattern>/OrderItem</url-pattern>
+  </servlet-mapping>
+  
+   
+  <servlet>
+    <servlet-name>OrdersHashMap</servlet-name>
+    <servlet-class>OrdersHashMap</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OrdersHashMap</servlet-name>
+    <url-pattern>/OrdersHashMap</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>Payment</servlet-name>
+    <servlet-class>Payment</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Payment</servlet-name>
+    <url-pattern>/Payment</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>PrevAccessory</servlet-name>
+    <servlet-class>PrevAccessory</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>PrevAccessory</servlet-name>
+    <url-pattern>/PrevAccessory</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>Signup</servlet-name>
+    <servlet-class>Signup</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Signup</servlet-name>
+    <url-pattern>/Signup</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>Utilities</servlet-name>
+    <servlet-class>Utilities</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Utilities</servlet-name>
+    <url-pattern>/Utilities</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>ViewOrder</servlet-name>
+    <servlet-class>ViewOrder</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewOrder</servlet-name>
+    <url-pattern>/ViewOrder</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>User</servlet-name>
+    <servlet-class>User</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/User</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SaxParserDataStore</servlet-name>
+    <servlet-class>SaxParserDataStore</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SaxParserDataStore</servlet-name>
+    <url-pattern>/SaxParserDataStore</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderPayment</servlet-name>
+    <servlet-class>OrderPayment</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OrderPayment</servlet-name>
+    <url-pattern>/OrderPayment</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Carousel</servlet-name>
+    <servlet-class>Carousel</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Carousel</servlet-name>
+    <url-pattern>/Carousel</url-pattern>
+  </servlet-mapping>
+  
+  
+
+</web-app>
